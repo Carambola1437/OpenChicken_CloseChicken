@@ -1,0 +1,1 @@
+with open("C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\shutdown.bat", "w", encoding="utf-8") as sd:sd.write(f"@echo off\nshutdown -s -t {input("开机后等待()秒关机，0为直接关机：")}")
